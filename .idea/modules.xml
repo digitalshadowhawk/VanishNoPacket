@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/modules/VanishNoPacket/VanishNoPacket.iml" filepath="$PROJECT_DIR$/modules/VanishNoPacket/VanishNoPacket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/API/vnp-api.iml" filepath="$PROJECT_DIR$/modules/API/vnp-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vnp-parent.iml" filepath="$PROJECT_DIR$/vnp-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/v1_5_R2/vnp-v1_5_R2.iml" filepath="$PROJECT_DIR$/modules/v1_5_R2/vnp-v1_5_R2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/v1_5_R3/vnp-v1_5_R3.iml" filepath="$PROJECT_DIR$/modules/v1_5_R3/vnp-v1_5_R3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/v1_6_R1/vnp-v1_6_R1.iml" filepath="$PROJECT_DIR$/modules/v1_6_R1/vnp-v1_6_R1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/v1_6_R2/vnp-v1_6_R2.iml" filepath="$PROJECT_DIR$/modules/v1_6_R2/vnp-v1_6_R2.iml" />
+    </modules>
+  </component>
+</project>
+
