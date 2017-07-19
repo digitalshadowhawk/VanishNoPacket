@@ -11,9 +11,9 @@
   <url>http://github.com/mbax/VanishNoPacket</url>
 
   <properties>
-	<spigot.version>1.12-R0.1-SNAPSHOT</spigot.version>
-	<spigot.groupId>org.spigotmc</spigot.groupId>       <!-- To switch between Bukkit & Spigot -->
-	<spigot.artifactId>spigot-api</spigot.artifactId>   <!-- To switch between Bukkit & Spigot -->
+    <spigot.version>1.12-R0.1-SNAPSHOT</spigot.version>
+    <spigot.groupId>org.spigotmc</spigot.groupId>       <!-- To switch between Bukkit & Spigot -->
+    <spigot.artifactId>spigot-api</spigot.artifactId>   <!-- To switch between Bukkit & Spigot -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <vnp-version>${project.version}-unofficial</vnp-version>
   </properties>
@@ -72,43 +72,43 @@
       <url>http://repo.bukkit.org/content/groups/public</url>
     </repository> -->
     <repository>
-	  <id>spigot-repo</id>
-	  <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
-	</repository>
-	<repository>
-	  <id>dynmap-repo</id>
-	  <url>http://repo.mikeprimm.com/</url>
-	</repository>
-	<repository>
+      <id>spigot-repo</id>
+      <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+    </repository>
+    <repository>
+      <id>dynmap-repo</id>
+      <url>http://repo.mikeprimm.com/</url>
+    </repository>
+    <repository>
       <id>dmulloy2-repo</id>
       <url>http://repo.dmulloy2.net/nexus/repository/public/</url>
-	</repository>
-	<repository>
-	  <id>vault-repo</id>
-	  <url>http://nexus.hc.to/content/repositories/pub_releases/</url>
-	</repository>
+    </repository>
+    <repository>
+      <id>vault-repo</id>
+      <url>http://nexus.hc.to/content/repositories/pub_releases/</url>
+    </repository>
   </repositories>
 
   <dependencies>
     <!--Spigot API-->
-		<dependency>
-			<groupId>${spigot.groupId}</groupId>
-			<artifactId>${spigot.artifactId}</artifactId>
-			<version>${spigot.version}</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>${spigot.groupId}</groupId>
-			<artifactId>${spigot.artifactId}</artifactId>
-			<version>${spigot.version}</version>
-			<classifier>javadoc</classifier>
-		</dependency>
-		<dependency>
-			<groupId>${spigot.groupId}</groupId>
-			<artifactId>${spigot.artifactId}</artifactId>
-			<version>${spigot.version}</version>
-			<classifier>sources</classifier>
-		</dependency>
+    <dependency>
+      <groupId>${spigot.groupId}</groupId>
+      <artifactId>${spigot.artifactId}</artifactId>
+      <version>${spigot.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>${spigot.groupId}</groupId>
+      <artifactId>${spigot.artifactId}</artifactId>
+      <version>${spigot.version}</version>
+      <classifier>javadoc</classifier>
+    </dependency>
+    <dependency>
+      <groupId>${spigot.groupId}</groupId>
+      <artifactId>${spigot.artifactId}</artifactId>
+      <version>${spigot.version}</version>
+      <classifier>sources</classifier>
+    </dependency>
     <dependency>
       <groupId>com.comphenix.protocol</groupId>
       <artifactId>ProtocolLib-API</artifactId>
